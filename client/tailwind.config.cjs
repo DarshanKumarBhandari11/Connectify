@@ -1,10 +1,10 @@
+const scrollbarHide = require('tailwind-scrollbar-hide');
+
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
-  plugins: [
-    require('tailwind-scrollbar-hide'),
-  ],
+  plugins: [scrollbarHide],
 };
