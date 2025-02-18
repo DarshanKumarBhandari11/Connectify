@@ -11,9 +11,13 @@ lerna-debug.log*
 client/node_modules/
 server/node_modules/
 
+# Client Environmental Variable
+client/.env
+server/.env
+
 # Dist folders (client side)
-client/dist
-client/dist-ssr
+client/dist/
+client/dist-ssr/
 
 # Local files
 *.local
